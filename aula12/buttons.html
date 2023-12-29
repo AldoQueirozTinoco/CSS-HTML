@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head><title>PAgina</title></head>
+    <body>
+        <a href="https://www.google.com">
+        <button style="background:red; border-radius: 5px;">Click me</button>
+        <br>
+        <br>
+        <button disabled>Click me</button>
+        <br>
+        <br>
+    </a>
+    <button onclick="doit()">Hello</button>
+    <p id="test">Hello</p>
+    <script>
+        function doit(){
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+    </body>
+</html>
