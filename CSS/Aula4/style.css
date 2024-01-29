@@ -1,0 +1,31 @@
+h1{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+}
+#p1{
+    border-style: dashed;
+    border-color: aquamarine;
+}
+#p2{
+    border: 10px double palegoldenrod;
+}
+#p3{
+    border-style: groove;
+}
+#p4{
+    border-style: inset;
+}
+#p5{
+border-style: outset;
+}
+#p6{
+    border-style: none;
+}
+p{
+    border-bottom: 3px solid gray;
+    border-top: 3px solid blue;
+    border-left: 3px inset orange;
+    border-right: 3px outset green;
+    border-radius: 10px;
+}
