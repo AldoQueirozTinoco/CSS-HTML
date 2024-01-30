@@ -1,0 +1,21 @@
+body{
+    border: 3px solid;
+}
+p{
+    margin-top: 120px;
+}
+#box1{
+    border: 3px solid salmon;
+    height: 100px;
+    width: 100px;
+background-color: salmon;
+float: left;
+}
+#box2{
+    border: 3px solid salmon;
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    margin-left: auto;
+    float: right;
+}
