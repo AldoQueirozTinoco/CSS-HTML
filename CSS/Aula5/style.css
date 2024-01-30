@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 3px solid;
+    height: 50px;
+}
+#box1{
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+#box2{
+    width: 100px;
+    margin-top: 20px;
+    background-color: red;
+    margin: auto;
+}
+#box3{
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: green;
+}
