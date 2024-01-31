@@ -1,0 +1,39 @@
+#blue{
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    background-color: lightblue;
+    float: left;
+} 
+#red{
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    background-color: salmon;
+    margin-left: 125px;
+} 
+#purple{
+    border-left: 4px solid purple;
+    border-right: 4px solid purple;
+    background-color: pink;
+    margin-left: 50px;
+    width: 150px;
+} 
+
+.box{
+    height: 100px;
+    width: 125px;
+    padding-top: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+#elemento{
+    border: 5px solid green;
+    margin: auto;
+    width: 125px;
+    height: 125px;
+    background-color: lightgreen;
+    padding-top: 47px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 75%;
+}
