@@ -1,0 +1,26 @@
+*{
+    float: left;
+}
+body{
+    background-image: url(Praia_de_Copacabana_-_Rio_de_Janeiro\,_Brasil.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+#box1{
+    background-color: rgb(54, 54, 190);
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    left:50%;
+    top: 100px;
+}
+#box2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+}
