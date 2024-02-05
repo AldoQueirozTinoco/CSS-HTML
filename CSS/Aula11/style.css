@@ -1,0 +1,15 @@
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: aqua;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin: auto;
+}
+h1{
+    width: 50px;
+    margin: auto;
+}
