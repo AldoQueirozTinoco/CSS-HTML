@@ -1,0 +1,20 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: rgb(88, 88, 224);
+}
+p::selection{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+#fruit li::before{
+    content:"O";
+}
+#apple::after{
+    content: "not";
+}
+#banana::after{
+    content:"Not";
+}
