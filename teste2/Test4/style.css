@@ -1,0 +1,24 @@
+#container{
+    background-color: aqua;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 10px solid blue;
+}
+h1{
+    text-align: center;
+}
+.nome{
+    float: left;
+    margin: 10px;
+}
+.cargo{
+    float: right;
+    margin: 10px;
+}
+body{
+    background-color:blueviolet;
+}
