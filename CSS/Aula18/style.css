@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    /*flex-direction: justifica como o flex é exibido
+    -row: default
+    row-reverse: o contrário da default(inverte os elementos)
+    column: em coluna
+    column-reverse: igual a row-reverse;
+    */
+
+    /*justify-content: space-evenly ;*/
+
+    /* justify content: Sets the alignment on the x axis
+
+    -space-between: mantêm o espaçamento entre
+    os elementos de acordo com a largura da página
+    -space-around: inclui o espaço ao redor dos elementos
+    -space-evenly: auto explicativo
+    */
+    border: 10px solid black;
+    height: 90vh; /*90% of the height of the webpage*/
+
+    /*align-items:center;*/
+
+    /* align-items: Alinha os itens no eixo y
+    flex-start: default
+    flex-end: alinha embaixo
+    center: centraliza os elementos
+    baseline: alinha as letras em eixo x
+    */
+
+   /* flex-wrap: wrap;*/
+
+    /* flex-wrap: tem relação a quando os elementos ficam apertados na página
+    no-wrap: default
+    wrap: os elementos, para manter sua width original, irão empurrar
+    outros mais abaixo na página
+    wrap-reverse: faz wrap ao contrário
+    */
+/*
+    align-content: flex-start;
+*/
+    /*align-content: alinha o conteúdo do flex-wrap
+    flex-start: remove o espaço entre o conteúdo que foi empurrado
+    flex-end: alinha o conteúdo no final da página
+    center: alinha no centro
+    space evenly: espaça igualmente no centro
+    space between: espaça igualmente embaixo e em cima
+    */ 
+
+    /*column-gap: 1em;
+    row-gap: 1em;*/
+}
+.box{
+    width:150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+    order:-1;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: brown;
+}

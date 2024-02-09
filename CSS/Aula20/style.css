@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 0);
+    font-size: 13em;
+    text-align: center;
+    animation: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft{
+    from{transform: translateX(200px);}
+}
+@keyframes slideRight{
+    to{transform: translateX(200px);}
+}
+@keyframes slideUp{
+    from{transform: translateY(200px);}
+}
+@keyframes slideDown{
+    to{transform: translateY(200px);}
+}
+@keyframes rotate{
+    50%{transform: rotateX(360deg);}
+}
+@keyframes grow{
+    50%{transform: scale(2, 2);}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes fade{
+    50%{opacity:0;}
+}
+@keyframes colorChange{
+    0%{background-color: rgb(255, 255, 0);}
+    25%{background-color:rgb(149, 255, 0);}
+    50%{background-color:rgb(0, 255, 102);}
+    100%{background-color:rgb(0, 255, 251);}
+}
+@keyframes glow{
+    50%{box-shadow:0px 0px 50px yellowgreen;}
+}
