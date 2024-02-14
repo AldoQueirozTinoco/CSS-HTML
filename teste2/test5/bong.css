@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+#title{
+    text-align: center;
+}
+header{
+    background-color: lightblue;
+    padding: 5px;
+}
+.navbar{
+    background-color: brown;
+    height: 30px;
+}
+.navbar li{
+    display: inline-block;
+}
