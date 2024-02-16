@@ -1,0 +1,22 @@
+#container{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+#box1{
+    
+    background-color: blue;
+}
+#box2{
+    
+    background-color: blue;
+}
+#box3{
+   
+    background-color: blue;
+}
