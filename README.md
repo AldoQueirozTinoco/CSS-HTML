@@ -1,2 +1,3 @@
 # CSS-HTML
-Estão aqui os arquivos das aulas que assisti de html e css do canal BRO-CODE
+Estão aqui os arquivos das aulas de HTML e CSS
+
